@@ -1,0 +1,11 @@
+--- 
+open_files: 
+  - config/routes.rb
+  - app/assets/javascripts/templates/index.hbs
+  - app/views/home/index.html.erb
+  - app/assets/javascripts/application.js
+  - app/assets/javascripts/templates/application.hbs
+  - app/views/layouts/application.html.erb
+  - Gemfile
+  - app/assets/stylesheets/application.css
+  - app/assets/stylesheets/custom.css.scss

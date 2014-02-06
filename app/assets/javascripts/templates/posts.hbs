@@ -1,0 +1,12 @@
+<h4>This is the index page of posts</h4>
+
+{{#each  model}}
+
+<h4>
+{{#link-to 'post' this}}
+{{title}}
+{{/link-to}}
+</h4>
+<p>{{description}}</p>
+
+{{/each}}

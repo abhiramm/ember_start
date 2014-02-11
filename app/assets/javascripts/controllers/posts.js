@@ -3,6 +3,10 @@ EmberStart.PostController= Ember.ObjectController.extend({
     save: function () {
       this.get('store').commit();
   
+    },
+    destroy: function () {
+      this.get('model').deleteRecord();
+      this.get('store').commit();
     }
   }
 });
